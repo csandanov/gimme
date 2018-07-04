@@ -1,7 +1,9 @@
 language: go
 
 env:
-  - GIMME_OS=linux GIMME_ARCH=arm
+  matrix:
+    - GIMME_OS=linux GIMME_ARCH=arm
+    - GIMME_OS=linux GIMME_ARCH=arm64    
   
 script:
   - echo $GOARH
