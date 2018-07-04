@@ -6,4 +6,4 @@ env:
     - GIMME_OS=linux GIMME_ARCH=arm64    
   
 script:
-  - echo $GOARH
+  - echo $GOARCH
