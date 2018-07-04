@@ -1,7 +1,7 @@
 language: go
 
 env:
-  - GIMME_OS=linux GIMME_ARCH=arm644
+  - GIMME_OS=linux GIMME_ARCH=arm64
   
 script:
   - echo $GOARH
