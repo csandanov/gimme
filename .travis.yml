@@ -1,11 +1,7 @@
 language: go
 
-services:
-  - docker
-
 env:
   - GIMME_OS=linux GIMME_ARCH=arm644
   
 script:
-  - set -e
   - echo $GOARH
