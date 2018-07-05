@@ -3,7 +3,7 @@ language: go
 env:
   matrix:
     - GIMME_OS=linux GIMME_ARCH=arm
-    - GIMME_OS=linux GIMME_ARCH=arm64    
+    - GIMME_OS=linux GIMME_ARCH=arm64 GIMME_CC_FOR_TARGET=arm-linux-gnueabi-gcc
   
 script:
   - echo $GOARCH
